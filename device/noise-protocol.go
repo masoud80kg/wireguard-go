@@ -53,11 +53,12 @@ const (
 )
 
 const (
-	MessageInitiationType  = 1
-	MessageResponseType    = 2
-	MessageCookieReplyType = 3
-	MessageTransportType   = 4
+	MessageInitiationType  = 0x81
+	MessageResponseType    = 0x92
+	MessageCookieReplyType = 0x93
+	MessageTransportType   = 0xC4
 )
+
 
 const (
 	MessageInitiationSize      = 148                                           // size of handshake initiation message
